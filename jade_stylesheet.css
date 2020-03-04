@@ -1,0 +1,70 @@
+/* 
+ * George Sidamon-Eristoff
+ * 3 March 2020
+ * Comp20 HW 7
+ * jade_stylesheet.css
+ */
+
+body
+{
+ 	color: #0099ee;
+ 	font-size: 20px;
+ 	font-weight: bold;
+}
+
+h1
+{
+	color: #7a679c;
+	text-align: center;
+}
+
+input
+{
+	margin-left: 30px;
+	text-align: center;
+	border-width: 0.5px;
+	border-style: none;
+	border-bottom-style: dashed;
+	font-size: 20px;
+	background-color: #ffffff;
+}
+
+input:placeholder-shown
+{
+	color: #009900;
+	background-color: #f0f0f0;
+}
+
+input:not(:placeholder-shown)
+{
+	color: #000000;
+}
+
+input::placeholder
+{
+	color: #999999;
+}
+
+#submit_button
+{
+	width: 100%;
+	padding: 15px 30%;
+	margin: 0px;
+	color: #009900;
+	border-style: none;
+
+
+}
+
+#submit_button:hover
+{
+	color: #ffffff;
+	background-color: #009900;
+}
+
+#order_results
+{
+	color: #009900;
+	padding-top: 30px;
+	text-align: center;
+}
