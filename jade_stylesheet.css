@@ -10,8 +10,22 @@ body
  	color: #0099ee;
  	font-size: 20px;
  	font-weight: bold;
+ 	text-align: center;
+}
+table
+{
+	text-align: center;
+	margin: auto;
 }
 
+form
+{
+	text-align: center;
+}
+tr
+{
+	text-align:center;
+}
 h1
 {
 	color: #7a679c;
